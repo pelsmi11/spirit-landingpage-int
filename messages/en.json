@@ -42,5 +42,9 @@
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
       }
     }
+  },
+  "Footer": {
+    "getIn": "GET IN TOUCH",
+    "designBy": "Designed with love by Elietth Garcia"
   }
 }

@@ -42,5 +42,9 @@
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
       }
     }
+  },
+  "Footer": {
+    "getIn": "IN KONTAKT KOMMEN",
+    "designBy": "Mit Liebe entworfen von Elietth Garcia"
   }
 }
