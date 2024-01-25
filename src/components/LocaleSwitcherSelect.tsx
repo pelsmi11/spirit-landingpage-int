@@ -1,11 +1,17 @@
 "use client";
 
-import clsx from "clsx";
-import { ChangeEvent, ReactNode, useTransition } from "react";
+import { ReactNode, useTransition } from "react";
 import { useRouter, usePathname } from "../navigation";
+import {
+  FormControl,
+  InputLabel,
+  MenuItem,
+  Select,
+  SelectChangeEvent,
+} from "@mui/material";
 
 type Props = {
-  children: ReactNode;
+  children: string[];
   defaultValue: string;
   label: string;
 };
@@ -19,7 +25,7 @@ export default function LocaleSwitcherSelect({
   const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
 
-  function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
+  function onSelectChange(event: SelectChangeEvent<string>, child: ReactNode) {
     const nextLocale = event.target.value;
     startTransition(() => {
       router.replace(pathname, { locale: nextLocale });
@@ -27,22 +33,25 @@ export default function LocaleSwitcherSelect({
   }
 
   return (
-    <label
-      className={clsx(
-        "relative text-gray-400",
-        isPending && "transition-opacity [&:disabled]:opacity-30"
-      )}
-    >
-      <p className="sr-only">{label}</p>
-      <select
-        className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6"
-        defaultValue={defaultValue}
-        disabled={isPending}
+    <FormControl disabled={isPending} sx={{ minWidth: "100px" }} size="small">
+      <InputLabel id="locale-switcher-label">{label}</InputLabel>
+      <Select
+        labelId="locale-switcher-label"
+        id="locale-switcher-select"
+        value={defaultValue}
+        label={label}
         onChange={onSelectChange}
+        MenuProps={{
+          disableScrollLock: true,
+        }}
       >
-        {children}
-      </select>
-      <span className="pointer-events-none absolute right-2 top-[8px]">⌄</span>
-    </label>
+        {children != undefined &&
+          children.map((locale) => (
+            <MenuItem key={locale} value={locale}>
+              {locale}
+            </MenuItem>
+          ))}
+      </Select>
+    </FormControl>
   );
 }

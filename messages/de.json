@@ -22,7 +22,7 @@
     "title": "next-intl Beispiel"
   },
   "LocaleSwitcher": {
-    "label": "Sprache ändern",
+    "label": "Sprache",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
   },
   "Navigation": {
@@ -42,6 +42,10 @@
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
       }
     }
+  },
+  "Navbar": {
+    "order": "🛍 Machen Sie JETZT Ihre Bestellung 🛍",
+    "alt": "mistic spell"
   },
   "Footer": {
     "getIn": "IN KONTAKT KOMMEN",

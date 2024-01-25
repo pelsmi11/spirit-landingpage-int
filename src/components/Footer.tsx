@@ -22,7 +22,7 @@ export const Footer = () => {
         >
           <div
             className="container lg:min-h-[300px] mx-auto px-6 flex flex-col lg:flex-row-reverse
-           gap-9 lg:gap-20 items-center"
+           gap-9 lg:gap-20 items-center pt-4"
           >
             <Image
               alt={t("getIn")}
@@ -46,7 +46,7 @@ export const Footer = () => {
         <div
           style={{
             background:
-              "linear-gradient(270deg, rgba(146, 95, 95, 0.00) 2.46%, #925F5F 48.36%, rgba(146, 95, 95, 0.00) 92.46%);",
+              "linear-gradient(270deg, rgba(146, 95, 95, 0.00) 2.46%, #925F5F 48.36%, rgba(146, 95, 95, 0.00) 92.46%)",
           }}
           className="text-center py-3 text-white"
         >
