@@ -2,6 +2,7 @@ import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { ReactNode } from "react";
 import { locales } from "../../config";
 import Navigation from "@/components/Navigation";
+import { Footer } from "@/components";
 
 type Props = {
   children: ReactNode;
@@ -34,6 +35,7 @@ export default async function LocaleLayout({
       <body className={` flex h-full flex-col`}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

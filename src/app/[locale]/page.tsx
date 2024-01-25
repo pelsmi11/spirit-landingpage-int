@@ -14,13 +14,13 @@ export default function IndexPage({ params: { locale } }: Props) {
 
   return (
     <PageLayout title={t("title")}>
-      <p className="max-w-[590px]">
+      {/* <p className="max-w-[590px]">
         {t.rich("description", {
           code: (chunks) => (
             <code className="font-mono text-white">{chunks}</code>
           ),
         })}
-      </p>
+      </p> */}
     </PageLayout>
   );
 }
