@@ -1,4 +1,10 @@
 @font-face {
+  font-family: "Sidney";
+  src: url("/fonts/Sidney.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Nexa";
   src: url("/fonts/NexaThin.otf") format("opentype");
   font-weight: 100;

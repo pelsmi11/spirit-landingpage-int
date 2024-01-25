@@ -1,9 +1,9 @@
 {
   "Index": {
-    "title": "Hallo Welt"
+    "title": "mistic spell elevate your spirit"
   },
   "IndexPage": {
-    "title": "next-intl Beispiel",
+    "title": "mistic spell Erhöhe deinen Geist",
     "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
   },
   "PathnamesPage": {
@@ -19,7 +19,7 @@
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "mistic spell Erhöhe deinen Geist"
   },
   "LocaleSwitcher": {
     "label": "Sprache",
@@ -29,19 +29,14 @@
     "home": "Start",
     "pathnames": "Pfadnamen"
   },
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "title": "Dokumentation",
-        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
-        "href": "https://next-intl-docs.vercel.app/"
-      },
-      "source": {
-        "title": "Quellcode",
-        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
-      }
-    }
+  "Hero": {
+    "transform": "Verwandeln Sie Ihren Raum, werten Sie ihn auf",
+    "button": "Mehr lesen"
+  },
+  "About": {
+    "title": "Beleuchten Sie Ihren Raum",
+    "body": "Unser Räucherwerk wird sorgfältig von Hand aus hochwertigen, natürlichen Zutaten hergestellt und fängt die Essenz jugendlicher Spiritualität ein. Jeder Stick ist eine Mischung aus exotischen Kräutern, Harzen und ätherischen Ölen, präzise gerollt und perfekt getrocknet.",
+    "button": "Produkte"
   },
   "Navbar": {
     "order": "🛍 Machen Sie JETZT Ihre Bestellung 🛍",

@@ -1,9 +1,9 @@
 {
   "Index": {
-    "title": "Hello world!"
+    "title": "mistic spell elevate your spirit"
   },
   "IndexPage": {
-    "title": "next-intl example",
+    "title": "mistic spell elevate your spirit",
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "PathnamesPage": {
@@ -19,7 +19,7 @@
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "mistic spell elevate your spirit"
   },
   "LocaleSwitcher": {
     "label": "language",
@@ -29,19 +29,14 @@
     "home": "Home",
     "pathnames": "Pathnames"
   },
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "title": "Docs",
-        "description": "Learn more about next-intl in the official docs.",
-        "href": "https://next-intl-docs.vercel.app/"
-      },
-      "source": {
-        "title": "Source code",
-        "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
-      }
-    }
+  "Hero": {
+    "transform": "Transform your space, elevate your",
+    "button": "Read more"
+  },
+  "About": {
+    "title": "Illuminate your space",
+    "body": "Carefully handcrafted from premium, natural ingredients, our incense captures the essence of youthful spirituality. Each stick is a blend of exotic herbs, resins, and ssential oils, rolled with precision and dried to perfection.",
+    "button": "View products"
   },
   "Navbar": {
     "order": "🛍 Make your order NOW 🛍",

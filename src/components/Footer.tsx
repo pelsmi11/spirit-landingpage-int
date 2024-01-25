@@ -30,9 +30,11 @@ export const Footer = () => {
               height={124}
               width={213}
             />
-            <div className="flex flex-wrap items-center gap-4">
-              <p className="text-white text-xl font-black">{t("getIn")}</p>
-              <div>
+            <div className="flex flex-wrap justify-center items-center gap-4">
+              <p className="text-white text-xl font-black text-center lg:text-right">
+                {t("getIn")}
+              </p>
+              <div className="flex ">
                 <FacebookIcon
                   sx={{ height: "31px", width: "31px", color: "white" }}
                 />
