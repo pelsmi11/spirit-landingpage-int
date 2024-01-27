@@ -1,0 +1,49 @@
+{
+  "Index": {
+    "title": "mistic spell eleva tu espíritu"
+  },
+  "IndexPage": {
+    "title": "mistic spell eleva tu espíritu",
+    "description": "Este es un ejemplo básico que demuestra el uso de <code>next-intl</code> con el enrutador de aplicaciones Next.js. Intenta cambiar el idioma en la esquina superior derecha y observa cómo cambia el contenido."
+  },
+  "PathnamesPage": {
+    "title": "Nombres de ruta",
+    "description": "<p>Los nombres de ruta también están internacionalizados.</p><p>Si estás usando el idioma predeterminado inglés, verás <code>/en/nombres-de-ruta</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambias el idioma a alemán, la URL se localiza en consecuencia (<code>/de/pfadnamen</code>).</p>"
+  },
+  "Error": {
+    "title": "¡Algo salió mal!",
+    "description": "<p>Lamentablemente, hemos encontrado un error.</p><p>Puedes intentar <retry>recargar la página</retry> que estabas visitando.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Página no encontrada",
+    "description": "Por favor, verifica dos veces la barra de direcciones del navegador o usa la navegación para ir a una página conocida."
+  },
+  "LocaleLayout": {
+    "title": "mistic spell eleva tu espíritu"
+  },
+  "LocaleSwitcher": {
+    "label": "idioma",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Desconocido}}"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "pathnames": "Nombres de ruta"
+  },
+  "Hero": {
+    "transform": "Transforma tu espacio, eleva tu",
+    "button": "Leer más"
+  },
+  "About": {
+    "title": "Ilumina tu espacio",
+    "body": "Cuidadosamente elaborado a mano con ingredientes naturales de primera calidad, nuestro incienso captura la esencia de la espiritualidad juvenil. Cada varilla es una mezcla de hierbas exóticas, resinas y aceites esenciales, enrollada con precisión y secada a la perfección.",
+    "button": "productos"
+  },
+  "Navbar": {
+    "order": "🛍 Haz tu pedido AHORA 🛍",
+    "alt": "mistic spell"
+  },
+  "Footer": {
+    "getIn": "CONTACTAR",
+    "designBy": "Diseñado con amor por Elietth Garcia"
+  }
+}

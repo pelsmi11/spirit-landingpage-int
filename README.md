@@ -4,6 +4,22 @@
 
 [figma](https://www.figma.com/file/UT9iTOd7cHUCZ9EodsI2i1/MYSTIC-SPELL-ONE-PAGE?node-id=55%3A462&mode=dev)
 
+## Build Docker Image
+
+Build your Container
+
+```
+docker build -t nextjs-intl .
+```
+
+Run your Container
+
+```
+docker run -p 3000:3000 nextjs-intl
+```
+
+## Nextjs
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
