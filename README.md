@@ -18,6 +18,64 @@ Run your Container
 docker run -p 3000:3000 nextjs-intl
 ```
 
+## Config Fr language
+
+pagname: cheminsDAcces
+
+fr.json
+
+```
+{
+  "Index": {
+    "title": "mistic spell élève ton esprit"
+  },
+  "IndexPage": {
+    "title": "mistic spell élève ton esprit",
+    "description": "Ceci est un exemple de base qui démontre l'utilisation de <code>next-intl</code> avec le routeur d'applications Next.js. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change."
+  },
+  "PathnamesPage": {
+    "title": "Chemins",
+    "description": "<p>Les chemins sont également internationalisés.</p><p>Si vous utilisez la langue par défaut anglais, vous verrez <code>/en/chemins</code> dans la barre d'adresse du navigateur sur cette page.</p><p>Si vous changez la locale en allemand, l'URL est localisée en conséquence (<code>/de/pfadnamen</code>).</p>"
+  },
+  "Error": {
+    "title": "Quelque chose s'est mal passé !",
+    "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</retry> que vous visitiez.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page non trouvée",
+    "description": "Veuillez vérifier à nouveau la barre d'adresse du navigateur ou utilisez la navigation pour aller à une page connue."
+  },
+  "LocaleLayout": {
+    "title": "mistic spell élève ton esprit"
+  },
+  "LocaleSwitcher": {
+    "label": "langue",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Inconnu}}"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "pathnames": "Chemins"
+  },
+  "Hero": {
+    "transform": "Transforme ton espace, élève ton",
+    "button": "En savoir plus"
+  },
+  "About": {
+    "title": "Illumine ton espace",
+    "body": "Soigneusement fabriqué à la main avec des ingrédients naturels de première qualité, notre encens capture l'essence de la spiritualité jeune. Chaque bâtonnet est un mélange d'herbes exotiques, de résines et d'huiles essentielles, roulé avec précision et séché à la perfection.",
+    "button": "Voir les produits"
+  },
+  "Navbar": {
+    "order": "🛍 Faites votre commande MAINTENANT 🛍",
+    "alt": "mistic spell"
+  },
+  "Footer": {
+    "getIn": "PRENDRE CONTACT",
+    "designBy": "Conçu avec amour par Elietth Garcia"
+  }
+}
+```
+
 ## Nextjs
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
