@@ -6,7 +6,7 @@ export const pathnames = {
   "/": "/",
   "/pathnames": {
     en: "/pathnames",
-    es: "/pathnames",
+    es: "/nombresDeRuta",
     de: "/pfadnamen",
   },
 } satisfies Pathnames<typeof locales>;
