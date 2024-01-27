@@ -1,3 +1,9 @@
+## Design Site by Elietth Garcia
+
+[Linkedin](https://www.linkedin.com/in/elietth-garc%C3%ADa/)
+
+[figma](https://www.figma.com/file/UT9iTOd7cHUCZ9EodsI2i1/MYSTIC-SPELL-ONE-PAGE?node-id=55%3A462&mode=dev)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

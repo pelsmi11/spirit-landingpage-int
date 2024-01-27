@@ -23,7 +23,7 @@ export const AboutSection = () => {
               className="w-48 h-12 px-8 py-3.5 bg-ui-primary rounded-3xl justify-center 
         items-center gap-2.5 inline-flex"
             >
-              <div className="text-white text-2xl font-bold font-['Nexa Bold']">
+              <div className="text-white text-lg lg:text-2xl font-bold font-['Nexa Bold']">
                 {t("button")}
               </div>
             </div>
